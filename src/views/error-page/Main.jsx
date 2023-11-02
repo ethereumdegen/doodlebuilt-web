@@ -1,5 +1,5 @@
  
-import errorIllustration from "@/assets/images/error-illustration.svg";
+//import errorIllustration from "@/assets/images/error-illustration.svg";
 
 function Main() {
   return (
@@ -11,9 +11,9 @@ function Main() {
           <div className="error-page flex flex-col lg:flex-row items-center justify-center h-screen text-center lg:text-left">
             <div className="-intro-x lg:mr-20">
               <img
-                alt="Rocketman Tailwind HTML Admin Template"
+                alt="Error"
                 className="h-48 lg:h-auto"
-                src={errorIllustration}
+               // src={errorIllustration}
               />
             </div>
             <div className="text-white mt-10 lg:mt-0">

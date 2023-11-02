@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 import DocsConfig from "@/config/docs-config";
 
-import SidenavElement from "@/views/base-components/sidenav-element";
+import SidenavElement from "@/views/base-components/sidenav-element/sidenav-element";
 
 function DocsSidenav({}) {
   let [isOpen, setIsOpen] = useState(false);
